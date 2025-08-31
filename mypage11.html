@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+     <!-- form Tag -->
+    <h1>FORM TAG</h1>
+<hr>
+    <!-- action การป้อนและเลือกข้อมูล -->
+    <!-- method วิธีการหรือรูปแบบการส่งข้อมูล -->
+    <!-- method มี 5 แบบ คือ GET/POST/PUT/DELETE/PATCH -->
+    
+    <form action="" method="">
+        <label for="">Username</label>
+        <input type="text" name=""  id="">
+        <br><br>
+        <label for="">Age</label>
+        <input type="number" name=""  id="">
+        <br><br>
+        <label for="">Tel</label>
+        <input type="tel" name="" id="">
+        <br><br>
+        <label for="">Mail</label>
+        <input type="email" name="" id="">
+        <br><br>
+        <label for="">Password</label>
+        <input type="password" name="" id="">
+        <br><br>
+        <label for="">Date of Birth</label>
+        <input type="datetime-local" name="" id="">
+        <br><br>
+        <label for="">Date</label>
+        <input type="date" name="" id="">
+        <br><br>
+        <label for="">Time</label>
+        <input type="time" name="" id="">
+        <br><br>
+
+        <!-- เลือกได้อันเดียว radio -->
+          <label for="">Gender</label>
+         <input type="radio" name="gender" id="" checked value="Male"> Male
+         <input type="radio" name="gender" id="" value="Female"> Female
+         <input type="radio" name="gender" id="" value="LGBTQ"> LGBTQ
+         <br><br>
+
+          <!-- เลือกได้อันเดียว ตัวเลือกเกิน 5-10 ขึ้นไป select option-->
+         <label for="">provincr</label>
+         <select name="" id="" >
+         <option value="">ระนอง</option>
+         <option value="">ระยอง</option>
+         <option value="">ยะลา</option>
+         <option value="">ตาก</option>
+         <option value="">ตราด</option>
+         </select>
+        <br><br>
+         <label for="">provincr</label>
+         <select name="" id="" size="4">
+         <option value="11">ระนอง</option>
+         <option value="22">ระยอง</option>
+         <option value="33">ยะลา</option>
+         <option value="44">ตาก</option>
+         <option value="55">ตราด</option>
+         </select>
+         <br><br>
+
+         <!-- เลือกได้หลายอัน checkbox -->
+          <label for="">favorite food</label>
+          <input type="checkbox" name="food1" id="KFC">KFC
+          <input type="checkbox" name="food2" id="MAC">MAC
+          <input type="checkbox" name="food3" id="TEE NOI">TEE NOI
+          <input type="checkbox" name="food4" id="MK">MK
+          <input type="checkbox" name="food5" id="PIZZA">PIZZA
+          <br><br>
+
+         <!-- ปุ่ม  -->
+          <button>ปุ่มกด</button>
+          <input type="submit" value="comfirm">
+          <input type="reset" value="cancel">
+
+    </form>
+</body>
+</html>
